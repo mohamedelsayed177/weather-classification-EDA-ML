@@ -11,7 +11,6 @@ The model used is a **Random Forest Classifier**, trained on a synthetic weather
 ## Features
 
 * Predict weather type based on:
-
   * Temperature (°C)
   * Humidity (%)
   * Wind Speed (km/h)
@@ -32,7 +31,6 @@ The model used is a **Random Forest Classifier**, trained on a synthetic weather
 
 * Synthetic weather dataset with **13,200 rows** and **11 columns**.
 * Balanced target classes:
-
   * Sunny
   * Rainy
   * Cloudy
@@ -44,12 +42,10 @@ The model used is a **Random Forest Classifier**, trained on a synthetic weather
 ## Model
 
 * Trained models:
-
   * Logistic Regression
   * Support Vector Machine (SVM)
   * Random Forest (**Best Model**)
 * **Random Forest** achieved:
-
   * Accuracy: 91.6%
   * Precision: 91.7%
   * Recall: 91.6%
@@ -75,28 +71,23 @@ pip install -r requirements.txt
 
 ---
 
-## How to Run
+## 🚀 How to Run the Project
 
-1. Clone the repository:
-
-```bash
-git clone <your-repo-url>
-cd <repo-folder>
-```
-
-2. Install dependencies:
+To run the app locally:
 
 ```bash
+# Clone the repository
+git clone https://github.com/mohamedelsayed177/weather-classification-EDA-ML.git
+cd weather-classification-EDA-ML
+
+# Install dependencies
 pip install -r requirements.txt
-```
 
-3. Run the Streamlit app:
-
-```bash
+# Run the Streamlit app
 streamlit run ui/app.py
 ```
 
-4. Open the URL shown in the terminal (usually `http://localhost:8501`).
+Then open the local URL displayed in your terminal (usually **http://localhost:8501**).
 
 ---
 
@@ -118,3 +109,10 @@ streamlit run ui/app.py
 ├── requirements.txt
 └── README.md
 ```
+
+---
+
+## License
+
+© 2025 — This project was developed as a **paid freelance delivery**.  
+All rights reserved. Redistribution, modification, or commercial use is **not allowed** without written permission.
